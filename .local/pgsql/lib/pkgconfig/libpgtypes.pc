@@ -1,0 +1,14 @@
+prefix=/Users/nivaasd/My works/figma-clone/.local/pgsql
+exec_prefix=${prefix}
+libdir=/Users/nivaasd/My works/figma-clone/.local/pgsql/lib
+includedir=/Users/nivaasd/My works/figma-clone/.local/pgsql/include
+
+Name: libpgtypes
+Description: PostgreSQL libpgtypes library
+URL: https://www.postgresql.org/
+Version: 16.6
+Requires: 
+Requires.private: 
+Cflags: -I${includedir}
+Libs: -L${libdir} -lpgtypes
+Libs.private:  -lpgcommon -lpgport -lm

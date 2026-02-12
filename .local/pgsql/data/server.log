@@ -1,0 +1,25 @@
+2026-02-12 11:57:32.122 IST [16648] LOG:  starting PostgreSQL 16.6 on aarch64-apple-darwin24.6.0, compiled by Apple clang version 17.0.0 (clang-1700.6.3.2), 64-bit
+2026-02-12 11:57:32.123 IST [16648] LOG:  listening on IPv6 address "::1", port 5432
+2026-02-12 11:57:32.123 IST [16648] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2026-02-12 11:57:32.124 IST [16648] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2026-02-12 11:57:32.125 IST [16651] LOG:  database system was shut down at 2026-02-12 11:57:31 IST
+2026-02-12 11:57:32.127 IST [16648] LOG:  database system is ready to accept connections
+2026-02-12 11:57:33.085 IST [16655] FATAL:  database "nivaasd" does not exist
+2026-02-12 11:58:29.869 IST [16729] LOG:  could not receive data from client: Connection reset by peer
+2026-02-12 11:59:59.471 IST [16794] FATAL:  role "postgres" does not exist
+2026-02-12 11:59:59.472 IST [16795] FATAL:  role "postgres" does not exist
+2026-02-12 12:00:10.970 IST [16803] FATAL:  role "postgres" does not exist
+2026-02-12 12:00:10.972 IST [16804] FATAL:  role "postgres" does not exist
+2026-02-12 12:01:35.014 IST [16858] FATAL:  role "postgres" does not exist
+2026-02-12 12:01:35.015 IST [16859] FATAL:  role "postgres" does not exist
+2026-02-12 12:02:18.024 IST [16904] FATAL:  database "nivaasd" does not exist
+2026-02-12 12:02:32.128 IST [16649] LOG:  checkpoint starting: time
+2026-02-12 12:04:05.149 IST [16649] LOG:  checkpoint complete: wrote 921 buffers (5.6%); 0 WAL file(s) added, 0 removed, 0 recycled; write=93.010 s, sync=0.008 s, total=93.021 s; sync files=335, longest=0.001 s, average=0.001 s; distance=4264 kB, estimate=4264 kB; lsn=0/18CC880, redo lsn=0/18CC5B0
+2026-02-12 12:07:32.152 IST [16649] LOG:  checkpoint starting: time
+2026-02-12 12:07:33.069 IST [16649] LOG:  checkpoint complete: wrote 10 buffers (0.1%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.914 s, sync=0.001 s, total=0.918 s; sync files=7, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=3838 kB; lsn=0/18CCCA8, redo lsn=0/18CCC70
+2026-02-12 12:37:32.084 IST [16649] LOG:  checkpoint starting: time
+2026-02-12 12:37:32.394 IST [16649] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.306 s, sync=0.001 s, total=0.311 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=3454 kB; lsn=0/18CD148, redo lsn=0/18CD110
+2026-02-12 13:07:32.428 IST [16649] LOG:  checkpoint starting: time
+2026-02-12 13:07:32.741 IST [16649] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.307 s, sync=0.001 s, total=0.314 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=3109 kB; lsn=0/18CD678, redo lsn=0/18CD640
+2026-02-12 13:32:32.754 IST [16649] LOG:  checkpoint starting: time
+2026-02-12 13:32:33.061 IST [16649] LOG:  checkpoint complete: wrote 4 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.001 s, total=0.307 s; sync files=4, longest=0.001 s, average=0.001 s; distance=1 kB, estimate=2798 kB; lsn=0/18CDC48, redo lsn=0/18CDC10

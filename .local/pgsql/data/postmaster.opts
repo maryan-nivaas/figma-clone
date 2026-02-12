@@ -1,0 +1,1 @@
+/Users/nivaasd/My works/figma-clone/.local/pgsql/bin/postgres "-D" "/Users/nivaasd/My works/figma-clone/.local/pgsql/data" "-p" "5432"
